@@ -13,9 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{53CA5B81
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AquaCore.UnitTest", "AquaCore.UnitTest\AquaCore.UnitTest.csproj", "{D14571D4-2A9E-4B77-B152-7B6742400192}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AquaCore.API", "AquaCore.API\AquaCore.API.csproj", "{1197D9BE-BE70-41A5-9721-5E76099D7601}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AquaCore.UI", "AquaCore.UI\AquaCore.UI.csproj", "{F84A2290-2E57-4C50-B20B-036959D47085}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AquaCore.API", "AquaCore.API\AquaCore.API.csproj", "{1197D9BE-BE70-41A5-9721-5E76099D7601}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,10 +41,6 @@ Global
 		{1197D9BE-BE70-41A5-9721-5E76099D7601}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1197D9BE-BE70-41A5-9721-5E76099D7601}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1197D9BE-BE70-41A5-9721-5E76099D7601}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F84A2290-2E57-4C50-B20B-036959D47085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F84A2290-2E57-4C50-B20B-036959D47085}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F84A2290-2E57-4C50-B20B-036959D47085}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F84A2290-2E57-4C50-B20B-036959D47085}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

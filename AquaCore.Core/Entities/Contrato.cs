@@ -24,7 +24,7 @@ namespace AquaCore.Core.Entities
         public DateTime? FechaFinObra { get; set; }
         public DateTime? FechaBaja { get; set; }
         public TipoBaja TipoBaja { get; set; }
-        public Decimal  Fianza { get; set; }
+        public Double  Fianza { get; set; }
         public SituacionFianza SituacionFianza { get; set; }
         public DateTime?  FechaEntregaFianza { get; set; }
         public DateTime? FechaDevolucionFianza { get; set; }
@@ -69,5 +69,6 @@ namespace AquaCore.Core.Entities
         public TipoControlConsumo TipoControlConsumo { get; set; }
         public double MinConsumo { get; set; }
         public double MaxConsumo { get; set; }
+        public IEnumerable<DocumentoContrato> Documentos { get; set; }
     }
 }
