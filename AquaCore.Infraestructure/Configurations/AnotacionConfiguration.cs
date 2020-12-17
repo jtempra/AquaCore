@@ -13,7 +13,10 @@ namespace AquaCore.Infraestructure
     {
         public void Configure(EntityTypeBuilder<Anotacion> builder)
         {
-            builder.Property (a=>a.)
+            builder.ToTable("Anotaciones");
+            builder.HasKey("Id");
+            builder.Property(a => a.Fecha).HasColumnName("Fecha").HasColumnType("DateTime").IsRequired();
+            builder.Property(a => a.Nota).HasColumnName("Nota").HasMaxLength(500).IsRequired().IsUnicode(false);
         }
     }
 }

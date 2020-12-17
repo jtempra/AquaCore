@@ -16,7 +16,7 @@ namespace AquaCore.Core.Entities
         public string NumeroParInicial { get; set; }
         public string NumeroParFinal { get; set; }
         public string NumeroImparInicial { get; set; }
-        public string NumeroaImparFinal { get; set; }
+        public string NumeroImparFinal { get; set; }
         public string CodigoINE { get; set; }
         public string CodigoGIS { get; set; }
         public TipoVia TipoVia { get; set; }
