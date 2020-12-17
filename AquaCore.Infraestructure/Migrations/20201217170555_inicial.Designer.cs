@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AquaCore.Infraestructure.Migrations
 {
     [DbContext(typeof(AquaCoreDbContext))]
-    [Migration("20201217165758_inicial")]
+    [Migration("20201217170555_inicial")]
     partial class inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
