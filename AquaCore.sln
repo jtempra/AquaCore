@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30803.129
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AquaCore.Core", "AquaCore.Core\AquaCore.Core.csproj", "{AA2AC945-2134-41A0-BF88-D192F3657118}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AquaCore.Infraestructure", "AquaCore.Infraestructure\AquaCore.Infraestructure.csproj", "{FB551197-FADC-4A38-A615-5CFE621FFB51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AquaCore.Shared", "AquaCore.Shared\AquaCore.Shared.csproj", "{FF9F4D6D-2423-46B5-94B1-91C17B3AD595}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{53CA5B81-A1CF-462B-9496-C622E2236DB7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AquaCore.UnitTest", "AquaCore.UnitTest\AquaCore.UnitTest.csproj", "{D14571D4-2A9E-4B77-B152-7B6742400192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AquaCore.API", "AquaCore.API\AquaCore.API.csproj", "{1197D9BE-BE70-41A5-9721-5E76099D7601}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AquaCore.UI", "AquaCore.UI\AquaCore.UI.csproj", "{F84A2290-2E57-4C50-B20B-036959D47085}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA2AC945-2134-41A0-BF88-D192F3657118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA2AC945-2134-41A0-BF88-D192F3657118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA2AC945-2134-41A0-BF88-D192F3657118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA2AC945-2134-41A0-BF88-D192F3657118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB551197-FADC-4A38-A615-5CFE621FFB51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB551197-FADC-4A38-A615-5CFE621FFB51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB551197-FADC-4A38-A615-5CFE621FFB51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB551197-FADC-4A38-A615-5CFE621FFB51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF9F4D6D-2423-46B5-94B1-91C17B3AD595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF9F4D6D-2423-46B5-94B1-91C17B3AD595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF9F4D6D-2423-46B5-94B1-91C17B3AD595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF9F4D6D-2423-46B5-94B1-91C17B3AD595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D14571D4-2A9E-4B77-B152-7B6742400192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D14571D4-2A9E-4B77-B152-7B6742400192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D14571D4-2A9E-4B77-B152-7B6742400192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D14571D4-2A9E-4B77-B152-7B6742400192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1197D9BE-BE70-41A5-9721-5E76099D7601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1197D9BE-BE70-41A5-9721-5E76099D7601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1197D9BE-BE70-41A5-9721-5E76099D7601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1197D9BE-BE70-41A5-9721-5E76099D7601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F84A2290-2E57-4C50-B20B-036959D47085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F84A2290-2E57-4C50-B20B-036959D47085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F84A2290-2E57-4C50-B20B-036959D47085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F84A2290-2E57-4C50-B20B-036959D47085}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D14571D4-2A9E-4B77-B152-7B6742400192} = {53CA5B81-A1CF-462B-9496-C622E2236DB7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3ED311BF-99AA-4F9D-B0DC-471993044794}
+	EndGlobalSection
+EndGlobal
