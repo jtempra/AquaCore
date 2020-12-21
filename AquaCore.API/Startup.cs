@@ -30,7 +30,7 @@ namespace AquaCore.API
 
             services.AddControllers();
 
-            services.AddDbContext<AquaCoreDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("AquaCoreDB2")));
+            services.AddDbContext<AquaCoreDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("AquaCoreDB")));
 
             services.AddSwaggerGen(c =>
             {
